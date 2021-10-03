@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanlasNoSQLapp.Android", "CanlasNoSQLapp\CanlasNoSQLapp.Android\CanlasNoSQLapp.Android.csproj", "{7B696E08-430D-4E48-95DD-5980B7D00BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanlasNoSQLapp", "CanlasNoSQLapp\CanlasNoSQLapp\CanlasNoSQLapp.csproj", "{61E1074D-81BC-456C-9D81-EA0D4EF3D1CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B696E08-430D-4E48-95DD-5980B7D00BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B696E08-430D-4E48-95DD-5980B7D00BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B696E08-430D-4E48-95DD-5980B7D00BB9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7B696E08-430D-4E48-95DD-5980B7D00BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B696E08-430D-4E48-95DD-5980B7D00BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B696E08-430D-4E48-95DD-5980B7D00BB9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{61E1074D-81BC-456C-9D81-EA0D4EF3D1CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E1074D-81BC-456C-9D81-EA0D4EF3D1CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E1074D-81BC-456C-9D81-EA0D4EF3D1CB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{61E1074D-81BC-456C-9D81-EA0D4EF3D1CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E1074D-81BC-456C-9D81-EA0D4EF3D1CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E1074D-81BC-456C-9D81-EA0D4EF3D1CB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB17347A-7E04-43CD-8259-CA51282B1B19}
+	EndGlobalSection
+EndGlobal
