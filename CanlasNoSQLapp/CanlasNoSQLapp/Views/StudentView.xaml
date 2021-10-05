@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            
              x:Class="CanlasNoSQLapp.Views.StudentView"
              Title="JRC Firebase Activity">
     <ContentPage.Content>
@@ -20,7 +21,26 @@
                 <Entry Text="{Binding Section}" Placeholder="Please enter section"/>
                 <Button WidthRequest="155" Text="Add" Command="{Binding AddStudentCommand}"/>
             </StackLayout>
-        
+
+            <ListView Grid.Row="1" 
+                      x:Name="lstStudent" 
+                      ItemTapped="OnItemSelected"
+                      ItemsSource="{Binding Students}">
+                     <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            <StackLayout Orientation="Horizontal" BackgroundColor="DarkGoldenrod" >
+                                <Label Text="{Binding StudentID}"/>
+                                <Label Text="{Binding StudentName}" />
+                                <Label Text="{Binding Course}" />
+                                <Label Text="{Binding YearLevel}" />
+                                <Label Text="{Binding Section}" />
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
